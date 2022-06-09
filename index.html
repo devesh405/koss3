@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="js/bootstrap.js">
+<link rel="stylesheet" href="style2.css">
+	<title></title>
+<script src="send.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<h1 class="text-center">Registeration Form</h1>
+			<!-- make a row in col-md-6 for label and textbox -->
+			
+<form class action="mailto:devesh9413264048@gmail.com" method="post">
+			<label class="label col-md-3 control-label">First Name</label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" name="name" placeholder="Enter your first name ">
+			</div>
+			<!--close-->
+				<!-- make a row in col-md-6 for label and textbox -->
+			<label class="label col-md-3 control-label">Last Name</label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" name="name" placeholder="Enter your last name ">
+			</div>
+			<!--close-->	
+			<!-- make a row in col-md-6 for label and textbox -->
+			<label class="label col-md-3 control-label">E-mail</label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" name="name" placeholder="Enter your vaild E-mail  ">
+			</div>
+			<!--close-->
+				<!-- make a row in col-md-6 for label and textbox -->
+			<label class="label col-md-3 control-label">Gender</label>
+			<div class="col-md-9">
+				<select class="form-control">
+					<option>Male</option>
+					<option>Female</option>
+					<option>Other</option>
+				</select>
+			</div>
+			<!--close-->
+
+<div class="dropdown">
+  <button id="myBtn" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+  	<br>
+  <!-- 	<div id="Student">Student</div>
+
+ -->    
+<button id="Student">Student</button> <br> <br>
+<button id="Professor">Professor</button> <br>
+ <!-- <a href="#Student" id="Student">Student</a> <br> -->
+  
+    <script>
+    	document.getElementById("myBtn").onclick = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("myDropdown").style.display="inline";
+
+}   </script> <br>
+
+<div class="roll" id="number">	<label class="label col-md-3 control-label">Roll Number</label>
+<input type="text" class="form-control" name="name" placeholder="Enter your roll number">
+<br>
+	<label class="label col-md-3 control-label">Department</label>
+		<input type="text" class="form-control" name="name" placeholder="Enter your Department ">
+		</div>
+		 <script>
+    	document.getElementById("Student").onclick = function() {himFunction()};
+
+function himFunction() {
+  document.getElementById("number").style.display="inline";
+
+}   </script>
+</script> <br>
+
+<div class="roll1" id="number1">	<label class="label col-md-3 control-label">Employee Id</label>
+<input type="text" class="form-control" name="name" placeholder="Enter your Id">
+<br>
+	<label class="label col-md-3 control-label">Department</label>
+		<input type="text" class="form-control" name="name" placeholder="Enter your Department ">
+		</div>
+		 <script>
+    	document.getElementById("Professor").onclick = function() {himFunction()};
+
+function himFunction() {
+  document.getElementById("number1").style.display="inline";
+
+}   </script>
+</div> 
+</div>
+
+
+		<input type="Submit" name="Submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+
+		</div>
+	
+		<div class="col-md-3"></div>
+	</div>
+</div>
+
+</body>
+</html>
